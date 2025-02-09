@@ -1,0 +1,3 @@
+# React 19 useEffect Performance Issue
+
+This repository demonstrates a common performance issue in React 19 related to the `useEffect` hook.  The provided `bug.js` file shows an example where the effect runs after every render, leading to unnecessary re-renders and potential performance bottlenecks.  The solution (`bugSolution.js`) demonstrates how to fix the issue using the `count` dependency array.
